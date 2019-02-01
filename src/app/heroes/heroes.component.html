@@ -19,3 +19,19 @@
       (click)="delete(hero)">x</button>
   </li>
 </ul>
+<<<<<<< HEAD
+=======
+
+
+<div *ngIf="selectedHero">
+
+  <h2>{{selectedHero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedHero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedHero.name" placeholder="name">
+    </label>
+  </div>
+
+</div>
+>>>>>>> parent of 35180dd... Master/Detail components tutorial finished. Understanding architecture and separation of responsibilities better

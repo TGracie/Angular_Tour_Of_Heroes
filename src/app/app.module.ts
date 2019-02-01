@@ -3,6 +3,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpClientModule }    from '@angular/common/http';
 
+<<<<<<< HEAD
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
@@ -16,6 +17,18 @@ import { HeroSearchComponent }  from './hero-search/hero-search.component';
 import { MessagesComponent }    from './messages/messages.component';
 
 @NgModule({
+=======
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { FormsModule } from '@angular/forms';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeroesComponent
+  ],
+>>>>>>> parent of 35180dd... Master/Detail components tutorial finished. Understanding architecture and separation of responsibilities better
   imports: [
     BrowserModule,
     FormsModule,
